@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+                *{
+                    text-align: center;
+                    justify-content: center;
+                    transition: all .2s ease-in-out;
+                }
+                body h2{
+                    font-size: 30px;
+                }
+                #container{
+                    position: fixed;
+                    width: 100%;
+                    height: 100%;
+                }
+                .button{
+                    font-size: 30px;
+                    width: 20%;
+                    height: 20%;
+                    margin: 10px 15px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    border-color: transparent;
+                    cursor: pointer;
+                }
+
+                #rice{
+                    background-image: url(image/rice.jpg);
+                }
+                #noodle{
+                    background-image: url(image/noodle.jpg);
+                }
+                #bread{
+                    background-image: url(image/bread.jpg);
+                }
+                #soup{
+                    background-image: url(image/soup.jpg);
+                }
+                #veg{
+                    background-image: url(image/veg.jpg);
+                }
+        </style>
+    </head>
+    <body>
+        <h2>먹고싶다</h2>
+        <div id = container>
+            <button class = button id = rice>밥</button>
+
+            <button class = button id = noodle>면</button>
+            <br>
+            <button class = button id = bread>빵</button>
+            <button class = button id = soup>국</button>
+            <br>
+            <button class = button id = veg>채소만</button>
+        </div>
+    </body>
+</html>
