@@ -1,0 +1,33 @@
+.flex-column{
+    height: 80vh;
+}
+
+div{
+    width: 100%;
+    height: 25%;
+}
+
+.btn-food {
+    cursor: pointer;
+    border-style: none;
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#rice{
+    background-image: url(../image/rice.jpg);
+}
+#noodle{
+    background-image: url(../image/noodle.jpg);
+}
+#bread{
+    background-image: url(../image/bread.jpg);
+}
+#soup{
+    background-image: url(../image/soup.jpg);
+}
+#veg{
+    background-image: url(../image/veg.jpg);
+}

@@ -1,4 +1,5 @@
 const phoneNum = document.getElementById("answer");
+const zero = document.getElementById("zero");
 const one = document.getElementById("one");
 const two = document.getElementById("two");
 const three = document.getElementById("three");
@@ -20,8 +21,7 @@ function delNum(event){
     phoneNum.value = phoneNum.value.slice(0,-1);    
 }
 
-
-
+zero.addEventListener("click", clickNum);
 one.addEventListener("click", clickNum);
 two.addEventListener("click", clickNum);
 three.addEventListener("click", clickNum);

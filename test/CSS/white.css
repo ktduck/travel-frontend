@@ -5,14 +5,31 @@ body {
     width:100%; 
     height:100%;
     position: fixed;
+    background-color: rgba(255,247,238,1);
 }
-
 /* flex design (section)*/
 .flex-column {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+/* title */
+.title{
+    color: rgba(59,29,10,.8);
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+/* button style */
+.white-btn{
+    cursor: pointer;
+    border: 3px solid rgba(146,129,104,.94);
+    color: white;
+    width: 80%;
+    border-radius: 40px;
+    padding: 6px;
 }
 
 /* text */
@@ -49,8 +66,9 @@ body {
     cursor: pointer;
     bottom: 5%;
     width: 80%;
-    border: 4px solid black;
+    border: 4px solid rgba(146,129,104,.94);
     color: black;
+    background-color: white;
     border-radius: 30px;
     padding: 6px;
     z-index: 2;
@@ -64,6 +82,7 @@ body {
     cursor: pointer;
     border: 4px solid black;
     color: black;
+    background-color: rgba(255,247,238,1);
     border-radius: 30px;
     padding: 6px;
 }
@@ -76,16 +95,7 @@ body {
     cursor: pointer;
     border: 4px solid black;
     color: black;
+    background-color: #FFF7EE;
     border-radius: 30px;
     padding: 6px;
-}
-
-/* footer */ 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5 rem;
-    color: #ffffff;
-    background-color: #333333;
 }
