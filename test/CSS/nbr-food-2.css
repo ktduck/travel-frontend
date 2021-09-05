@@ -1,16 +1,17 @@
 .flex-column{
     height: 80vh;
 }
-
-div{
-    width: 100%;
+.flex-row{
+    width: 60%;
     height: 25%;
+    justify-content: space-around;
 }
-
 .btn-food {
     cursor: pointer;
     border-style: none;
     color: black;
+    width: 30%;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
